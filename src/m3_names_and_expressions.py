@@ -42,7 +42,7 @@ alpha = 41 * 88
 beta = 4 * math.cos(2)
 print(math.sqrt(alpha + beta))
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -50,10 +50,11 @@ print(math.sqrt(alpha + beta))
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt(2))
+print(2 ** 0.5)
 
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
@@ -92,10 +93,10 @@ print(math.sqrt(alpha + beta))
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type('math'))
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
