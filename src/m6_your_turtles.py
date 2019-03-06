@@ -28,3 +28,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+window = rg.TurtleWindow()
+red_boy = rg.SimpleTurtle('square')
+red_boy.pen = rg.Pen('red',3)
+red_boy.speed = 15
+size = 100
+for k in range (4):
+    red_boy.draw_square(size)
